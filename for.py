@@ -9,5 +9,5 @@ print()
 for cont in range(0,10):
     print(cont)
 print()    
-for cont in range(0,100,3):
+for cont in range(0,20,3):
     print(cont)    
