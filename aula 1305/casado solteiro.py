@@ -26,7 +26,7 @@ for cont in range(1,11):
     print()
 
 
-for cont in range(1,21,2):
+for cont in range(-0,21,2):
     print(cont)
     print()
 
