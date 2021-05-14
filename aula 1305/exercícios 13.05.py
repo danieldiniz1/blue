@@ -74,7 +74,11 @@ elif (sim ==5 ):
 
 
 # desafio 1
-
+for i in range(1000,10000):
+  parte1 = i // 100
+  parte2 = i % 100
+  if (parte1+parte2)**2 == i:
+    print(i)
 
 
 
@@ -86,6 +90,6 @@ notas = []
 for cont in range(materias):
     nota = float(input(f"qual nota você tirou na {cont+1} materia? "))
     notas.append(nota)
- 
+print('a média geal das notas é: ')
 print(sum(notas)/materias)
     
