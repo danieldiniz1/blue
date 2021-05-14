@@ -40,7 +40,7 @@ for cont in range(1,21,2):
 
 # exercício 6
 
-precopao = float(input("digite o preço do pão"))
+precopao = float(input("digite o preço do pão: "))
 
 for cont in range(1,51):
     print("quantidade-R$",(cont,precopao*cont))
