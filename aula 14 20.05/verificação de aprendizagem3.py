@@ -43,6 +43,8 @@ while continuar == True:
         continuar = input("Você quer tentar novamente? [sim/não]")
         if continuar == "sim" or continuar == "SIM" or continuar =="s" or continuar == "S":
             continuar = True
+            numero= randint(0,10)
+            print(numero)
         elif continuar == "não" or continuar == "NÃO" or continuar =="n" or continuar == "N":
             continuar == False
             print("Jogo finalizado!")
