@@ -6,7 +6,7 @@ for nmrs in range(10):
     numeros.sort()
     numeros.reverse()
 
-
+print()
 print(f"tamanho da lista:",len(numeros))
 if 5 in numeros:
     print("A número 5 está na lista ")
