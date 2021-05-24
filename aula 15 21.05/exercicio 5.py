@@ -36,6 +36,10 @@ while sair == False:
         n1 = int(input("Digite o 1 nº: "))
         sleep(1)
         n2 = int(input("Digite o 2 nº: "))
+    elif opcao == "":
+        print("opção invalida!")
+        opcao = int(input("Digite a opção desejada: "))
+        
     elif opcao ==5:
         print("Programa finalizado!")
         sair = True

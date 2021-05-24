@@ -7,7 +7,7 @@ def contador(inicio,fim,passo):
     print()
     for cont3 in range(inicio,fim,passo):
         print(cont3)
-inicio= int(input("digite um nº para iniciar"))
+inicio= int(input("digite um nº para iniciar: "))
 fim = int(input("digite um nº para finalizar: "))
 passo= int(input("digite o nº de passos que o programa vai dar: "))
 contador(inicio,fim,passo)
